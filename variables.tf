@@ -9,13 +9,13 @@ variable "vpc_id" {
 variable "ami" {
   type        = string
   description = "provide an ubuntu or debian ami"
-  default = "ami-03d9fcc39480315d4"
+  default = "ami-00e16e7c96b6e6882"
 }
 
 variable "instance_type" {
   type        = string
   description = "provide instance size"
-  default = "t3.medium"
+  default = "t2.micro"
 }
 
 variable "subnet_id" {
