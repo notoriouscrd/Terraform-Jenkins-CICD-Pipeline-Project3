@@ -9,7 +9,7 @@ variable "vpc_id" {
 variable "ami" {
   type        = string
   description = "provide an ubuntu or debian ami"
-  default = "ami-00e16e7c96b6e6882"
+  default = "ami-0bb7d855677353076"
 }
 
 variable "instance_type" {
