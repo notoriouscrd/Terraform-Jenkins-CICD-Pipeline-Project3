@@ -15,7 +15,7 @@ variable "ami" {
 variable "instance_type" {
   type        = string
   description = "provide instance size"
-  default = "t2.medium"
+  default = "t3.medium"
 }
 
 variable "subnet_id" {
